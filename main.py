@@ -13,5 +13,3 @@ def count_words():
         output[word] = text.lower().split().count(word) # to make sure it's counting word by word, and not letter by letter
     return output # {"as": 10, "would": 20}
 print(count_words())
-# driver
-# count_words()
